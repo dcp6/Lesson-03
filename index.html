@@ -5,16 +5,32 @@
 <title>Lesson 03 Codealong</title>
 <style>
     /*Comment one */
+    * {
+        border: 1px dashed yellow;
+        
+    }
     body {
+        font-size: 16px;
         color: cornflowerblue;
         background-color:gray;
+        width:100%;
+    }
+    .views {
+        width:33%;
+        border: 1px dashed red;
+
     }
     p {
         color: DarkSeaGreen;
     }
-    
     .main-paragraph:hover {
-        background: darkmagenta;
+        background-color: rgba(125,200,125,0.4);
+        font-size: 1.5rem;
+    }
+    
+  
+    .main-paragraph {
+       width:33%;
     }
     
     a[href="../about-me.html"] {
@@ -33,10 +49,12 @@
 
 <body>
 <h1> Website Title Text</h1>
-    
+<img class="views" src="images/mossypic.jpg" alt="A picture of some mossy rocks">
+<article class="first-article">
     <p class="main-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis non convallis urna, id vehicula lorem. Quisque elit ex, laoreet sed molestie nec, vestibulum ut mauris. </p>
-    
-     <p class="second-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+</article>
+<img class="views" src="images/mountain.jpg" alt="A picture of Mount Rainier, WA">
+    <p class="second-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
     
    
     <a href="https://www.google.com/?client=safari">This is Google, the most popular search engine.</a>
